@@ -1,0 +1,52 @@
+    .navbar-custom {
+        background-color: #b9c3e9 !important;
+    }
+    .btn-custom {
+        background-color: #3b3b8d; 
+        color: white;              
+        border: none;              
+    }
+    .btn-custom:hover {
+        background-color: #ff5f9e; 
+        color: #ffffff;            
+    }
+    .card-html, .card-css, .card-php {
+        background-color: #b3b9f1; 
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+    }
+
+    .card-html:hover, .card-css:hover, .card-php:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .content {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .content img {
+        width: 90px;
+        height: auto;
+        border: none;
+        background-color: #b3b9f1;
+        border-radius: 8px;
+        padding: 5px;
+    }
+
+      .content p {
+        text-align: justify;
+        margin: 0;
+    }
+
+    .card-html { background-color: #b3b9f1; }
+    .card-css { background-color: #c7bef3; }
+    .card-php { background-color: #d0c3ff; }
+
+    .row {
+        padding-bottom: 25px; 
+    }
